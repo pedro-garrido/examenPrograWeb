@@ -25,11 +25,11 @@
                             Sistema
                         </a>
 
-                        <ul class="dropdown-menu bg-dark">
-                            <a class="dropdown-item bg-dark" href="<?php echo base_url(); ?>index.php/vehiculo/insert">
+                        <ul class="dropdown-menu bg-primary">
+                            <a class="dropdown-item bg-primary" href="<?php echo base_url(); ?>index.php/vehiculo/insert">
                                 <li>Vehiculos</li>
                             </a>
-                            <a class="dropdown-item bg-dark" href="<?php echo base_url(); ?>index.php/vehiculo/getAll">
+                            <a class="dropdown-item bg-primary" href="<?php echo base_url(); ?>index.php/vehiculo/getAll">
                                 <li>Ver Vehiculos</li>
                             </a>
                         </ul>
