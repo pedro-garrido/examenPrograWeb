@@ -1,0 +1,194 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+body {
+  background-color: #3a3d47;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.superior {
+  overflow: hidden;
+  background-color: #0672f1;
+}
+
+.logo {
+  float: left;
+  width: 300px;
+}
+
+.logo img {
+  width: 300px;
+}
+
+#imgprincipal {
+  width: 100%;
+  height: 400px;
+}
+
+/*css del menu*/
+
+.menu {
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 20vw;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu li {
+  color: #ffffff;
+  border: #ffffff solid 1px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+}
+
+.menu li:hover {
+  color: #062348;
+  background-color: #f4cf04;
+}
+
+/*fin css del menu*/
+
+.titulo {
+  text-align: center;
+  color: #ff7600;
+  margin: 20px;
+}
+
+/*css articulos*/
+.art1 {
+  background-color: #f4cf04;
+  display: inline-block;
+  padding: 40px;
+  width: 40%;
+  margin: 18px;
+  border-radius: 10px;
+}
+
+.art2 {
+  background-color: #0672f1;
+  color: #ffffff;
+  display: inline-block;
+  padding: 40px;
+  width: 40%;
+  margin: 18px;
+  border-radius: 10px;
+}
+.art1 img,
+.art2 img {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.art1 ul,
+.art2 ul {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+/*css footer*/
+
+.pie {
+  background-color: #062348;
+  color: white;
+  padding: 30px;
+}
+
+.numero {
+  display: inline-block;
+}
+.numero img {
+  margin: 20px;
+  width: 300px;
+}
+
+.rrss {
+  display: inline-block;
+  margin: -100px 10px 10px 60em;
+}
+
+.rrss li {
+  display: inline-block;
+  margin: 10px 5px 0 0;
+}
+
+/* css contacto.html*/
+.contactForm {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0672f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+.contactForm input {
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  margin: 10px 0px 10px 0px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  border-bottom: none;
+}
+
+.contactForm input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.contactForm input:hover {
+  background: #ff7600;
+  color: #fff;
+}
+
+.contactForm input:focus {
+  background: #ff7600;
+  color: #fff;
+}
+
+.contactForm {
+  color: #ffffff;
+}
+
+#submit {
+  width: 502px;
+  padding: 0;
+  margin: 10px 0px 0px 0px;
+  font-size: 0.875em;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
