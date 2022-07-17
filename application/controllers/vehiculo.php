@@ -15,7 +15,7 @@ class vehiculo extends CI_Controller
 	{
 
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('patente', 'Patente', 'required|regex_match[/^[a-zA-Z]{3}[0-9]{3}$/]', array('required' => 'Debe ingresar la patente', 'regex_match' => 'La patente debe tener 3 letras y 3 numeros'));
+		$this->form_validation->set_rules('patente', 'Patente', 'required|regex_match[/^[A-Z]+[-][0-9]+$/]', array('required' => 'Debe ingresar la patente', 'regex_match' => 'La patente debe cumplir formato [ABC-123]'));
 		$this->form_validation->set_rules('marca', 'Marca', 'required', array('required' => 'Debe ingresar la marca'));
 		$this->form_validation->set_rules('modelo', 'Modelo', 'required', array('required' => 'Debe ingresar el modelo'));
 		$this->form_validation->set_rules('color', 'Color', 'required', array('required' => 'Debe ingresar el color'));
